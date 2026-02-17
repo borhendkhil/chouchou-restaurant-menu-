@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chouchou - Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <div class="logo">🍽️</div>
+                <h1 class="restaurant-name">Chouchou</h1>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav" id="nav">
+                <a href="#sandwiches" class="nav-link">Sandwichs</a>
+                <a href="#pizzas" class="nav-link">Pizzas</a>
+                <a href="#plats" class="nav-link">Plats</a>
+                <a href="#spaghetti" class="nav-link">Spaghetti</a>
+                <a href="#poulet" class="nav-link">Poulet</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title">Bienvenue chez Chouchou</h2>
+            <p class="hero-subtitle">Découvrez nos délicieuses spécialités tunisiennes</p>
+            <p class="hero-description">Sandwichs, Pizzas, Plats traditionnels et bien plus encore...</p>
+            <div class="hero-icons">
+                <span class="hero-icon">🍕</span>
+                <span class="hero-icon">🥙</span>
+                <span class="hero-icon">🍗</span>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="sandwiches" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="icon">🥙</span>
+                    Sandwichs
+                </h2>
+
+                <div class="sandwich-grid">
+                    <div class="sandwich-category">
+                        <h3 class="category-title">🌯 Tabouna</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <span class="item-name">🍗 Escalope</span>
+                                <span class="item-price">7.500 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🥙 Chawarma</span>
+                                <span class="item-price">7.000 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🐟 Thon</span>
+                                <span class="item-price">6.500 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🥓 Jambon</span>
+                                <span class="item-price">6.500 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🍖 Salami</span>
+                                <span class="item-price">6.500 DT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sandwich-category">
+                        <h3 class="category-title">🥖 Libanais</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <span class="item-name">🍗 Escalope</span>
+                                <span class="item-price">8.000 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🥙 Chawarma</span>
+                                <span class="item-price">7.500 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🐟 Thon</span>
+                                <span class="item-price">7.000 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🥓 Jambon</span>
+                                <span class="item-price">7.000 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🍖 Salami</span>
+                                <span class="item-price">7.000 DT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sandwich-category">
+                        <h3 class="category-title">🌮 Tacos</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <span class="item-name">🍗 Escalope</span>
+                                <span class="item-price">9.000 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🥙 Chawarma</span>
+                                <span class="item-price">8.500 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🐟 Thon</span>
+                                <span class="item-price">8.000 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🥓 Jambon</span>
+                                <span class="item-price">8.000 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🍖 Salami</span>
+                                <span class="item-price">8.000 DT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sandwich-category">
+                        <h3 class="category-title">🥖 Baguette</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <span class="item-name">🍗 Escalope</span>
+                                <span class="item-price">6.500 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🥙 Chawarma</span>
+                                <span class="item-price">6.000 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🐟 Thon</span>
+                                <span class="item-price">5.500 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🥓 Jambon</span>
+                                <span class="item-price">5.500 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🍖 Salami</span>
+                                <span class="item-price">5.500 DT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sandwich-category">
+                        <h3 class="category-title">🌯 Makloub</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <span class="item-name">🍗 Escalope</span>
+                                <span class="item-price">7.000 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🥙 Chawarma</span>
+                                <span class="item-price">6.500 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🐟 Thon</span>
+                                <span class="item-price">6.000 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🥓 Jambon</span>
+                                <span class="item-price">6.000 DT</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">🍖 Salami</span>
+                                <span class="item-price">6.000 DT</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pizzas" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="icon">🍕</span>
+                    Pizzas
+                </h2>
+
+                <div class="pizza-grid">
+                    <div class="pizza-card">
+                        <div class="pizza-header">
+                            <h3 class="pizza-name">🧀 Margherita</h3>
+                        </div>
+                        <div class="pizza-sizes">
+                            <div class="size-item">
+                                <span class="size-label">Moyen</span>
+                                <span class="size-price">12.000 DT</span>
+                            </div>
+                            <div class="size-item">
+                                <span class="size-label">Large</span>
+                                <span class="size-price">18.000 DT</span>
+                            </div>
+                            <div class="size-item">
+                                <span class="size-label">XL</span>
+                                <span class="size-price">24.000 DT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pizza-card">
+                        <div class="pizza-header">
+                            <h3 class="pizza-name">🧀 4 Fromages</h3>
+                        </div>
+                        <div class="pizza-sizes">
+                            <div class="size-item">
+                                <span class="size-label">Moyen</span>
+                                <span class="size-price">15.000 DT</span>
+                            </div>
+                            <div class="size-item">
+                                <span class="size-label">Large</span>
+                                <span class="size-price">22.000 DT</span>
+                            </div>
+                            <div class="size-item">
+                                <span class="size-label">XL</span>
+                                <span class="size-price">28.000 DT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pizza-card">
+                        <div class="pizza-header">
+                            <h3 class="pizza-name">🐟 Thon</h3>
+                        </div>
+                        <div class="pizza-sizes">
+                            <div class="size-item">
+                                <span class="size-label">Moyen</span>
+                                <span class="size-price">14.000 DT</span>
+                            </div>
+                            <div class="size-item">
+                                <span class="size-label">Large</span>
+                                <span class="size-price">20.000 DT</span>
+                            </div>
+                            <div class="size-item">
+                                <span class="size-label">XL</span>
+                                <span class="size-price">26.000 DT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pizza-card">
+                        <div class="pizza-header">
+                            <h3 class="pizza-name">🍗 Escalope</h3>
+                        </div>
+                        <div class="pizza-sizes">
+                            <div class="size-item">
+                                <span class="size-label">Moyen</span>
+                                <span class="size-price">16.000 DT</span>
+                            </div>
+                            <div class="size-item">
+                                <span class="size-label">Large</span>
+                                <span class="size-price">23.000 DT</span>
+                            </div>
+                            <div class="size-item">
+                                <span class="size-label">XL</span>
+                                <span class="size-price">30.000 DT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pizza-card">
+                        <div class="pizza-header">
+                            <h3 class="pizza-name">🦐 Fruits de mer</h3>
+                        </div>
+                        <div class="pizza-sizes">
+                            <div class="size-item">
+                                <span class="size-label">Moyen</span>
+                                <span class="size-price">17.000 DT</span>
+                            </div>
+                            <div class="size-item">
+                                <span class="size-label">Large</span>
+                                <span class="size-price">25.000 DT</span>
+                            </div>
+                            <div class="size-item">
+                                <span class="size-label">XL</span>
+                                <span class="size-price">32.000 DT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pizza-card">
+                        <div class="pizza-header">
+                            <h3 class="pizza-name">⭐ Spéciale Maison</h3>
+                        </div>
+                        <div class="pizza-sizes">
+                            <div class="size-item">
+                                <span class="size-label">Moyen</span>
+                                <span class="size-price">18.000 DT</span>
+                            </div>
+                            <div class="size-item">
+                                <span class="size-label">Large</span>
+                                <span class="size-price">26.000 DT</span>
+                            </div>
+                            <div class="size-item">
+                                <span class="size-label">XL</span>
+                                <span class="size-price">34.000 DT</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="plats" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="icon">🍽️</span>
+                    Plats
+                </h2>
+
+                <div class="plats-compact">
+                    <div class="compact-menu-items">
+                        <div class="compact-item">
+                            <span class="compact-name">🍗 Escalope</span>
+                            <span class="compact-price">12.000 DT</span>
+                        </div>
+                        <div class="compact-item">
+                            <span class="compact-name">🥙 Chawarma</span>
+                            <span class="compact-price">11.000 DT</span>
+                        </div>
+                        <div class="compact-item">
+                            <span class="compact-name">🐟 Dorade</span>
+                            <span class="compact-price">18.000 DT</span>
+                        </div>
+                        <div class="compact-item">
+                            <span class="compact-name">🐟 Loup</span>
+                            <span class="compact-price">20.000 DT</span>
+                        </div>
+                        <div class="compact-item">
+                            <span class="compact-name">⭐ Plat du jour</span>
+                            <span class="compact-price">10.000 DT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="spaghetti" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="icon">🍝</span>
+                    Spaghetti
+                </h2>
+
+                <div class="plats-compact">
+                    <div class="compact-menu-items">
+                        <div class="compact-item">
+                            <span class="compact-name">🍝 Spaghetti Bolognaise</span>
+                            <span class="compact-price">8.000 DT</span>
+                        </div>
+                        <div class="compact-item">
+                            <span class="compact-name">🍝 Spaghetti Carbonara</span>
+                            <span class="compact-price">9.000 DT</span>
+                        </div>
+                        <div class="compact-item">
+                            <span class="compact-name">🍝 Spaghetti Fruits de mer</span>
+                            <span class="compact-price">12.000 DT</span>
+                        </div>
+                        <div class="compact-item">
+                            <span class="compact-name">🍝 Spaghetti Poulet</span>
+                            <span class="compact-price">9.000 DT</span>
+                        </div>
+                        <div class="compact-item">
+                            <span class="compact-name">🍝 Spaghetti Napolitaine</span>
+                            <span class="compact-price">7.000 DT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="poulet" class="section poulet-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="icon">🍗</span>
+                    Poulet Rôti
+                </h2>
+
+                <div class="poulet-container">
+                    <div class="poulet-card">
+                        <h3 class="poulet-category-title">Poulet Normal</h3>
+                        <div class="poulet-items">
+                            <div class="poulet-item">
+                                <span class="poulet-label">1/4 Poulet</span>
+                                <span class="poulet-price">5.500 DT</span>
+                            </div>
+                            <div class="poulet-item">
+                                <span class="poulet-label">1/2 Poulet</span>
+                                <span class="poulet-price">10.000 DT</span>
+                            </div>
+                            <div class="poulet-item">
+                                <span class="poulet-label">Poulet Complet</span>
+                                <span class="poulet-price">18.000 DT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="poulet-card">
+                        <h3 class="poulet-category-title">Poulet Sec</h3>
+                        <div class="poulet-items">
+                            <div class="poulet-item">
+                                <span class="poulet-label">1/4 Poulet Sec</span>
+                                <span class="poulet-price">4.500 DT</span>
+                            </div>
+                            <div class="poulet-item">
+                                <span class="poulet-label">1/2 Poulet Sec</span>
+                                <span class="poulet-price">8.500 DT</span>
+                            </div>
+                            <div class="poulet-item">
+                                <span class="poulet-label">1 Poulet Sec</span>
+                                <span class="poulet-price">16.000 DT</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="icon">📞</span>
+                    Contact
+                </h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Tunis, Tunisie</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span>+216 XX XXX XXX</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🕐</span>
+                            <span>Ouvert tous les jours: 11h - 23h</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Chouchou Restaurant. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/216XXXXXXXX" class="whatsapp-button" target="_blank" rel="noopener">
+        <svg viewBox="0 0 32 32" fill="currentColor">
+            <path
+                d="M16 0C7.164 0 0 7.164 0 16c0 2.825.742 5.484 2.044 7.784L0 32l8.411-2.044A15.93 15.93 0 0016 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm0 29.333c-2.467 0-4.801-.667-6.8-1.833l-.489-.289-5.067 1.233 1.267-4.622-.311-.511A13.278 13.278 0 012.667 16C2.667 8.636 8.636 2.667 16 2.667S29.333 8.636 29.333 16 23.364 29.333 16 29.333z" />
+            <path
+                d="M23.022 19.422c-.378-.189-2.233-1.1-2.578-1.222-.344-.122-.594-.178-.844.178-.25.356-.967 1.222-1.189 1.467-.222.244-.444.278-.822.089-.378-.189-1.594-.589-3.033-1.867-1.122-1-1.878-2.233-2.1-2.611-.222-.378-.022-.578.167-.767.167-.167.378-.433.567-.656.189-.222.256-.378.378-.633.122-.256.061-.478-.033-.667-.094-.189-.844-2.033-1.156-2.778-.311-.733-.622-.633-.844-.644-.222-.011-.478-.011-.733-.011s-.678.094-1.033.478c-.356.378-1.356 1.322-1.356 3.222s1.389 3.733 1.578 3.989c.189.256 2.656 4.056 6.433 5.689.9.389 1.6.622 2.144.8.9.289 1.722.244 2.367.144.722-.111 2.233-.911 2.544-1.789.311-.878.311-1.633.222-1.789-.089-.156-.344-.256-.722-.444z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
