@@ -8,6 +8,30 @@ document.addEventListener('DOMContentLoaded', function () {
         nav.classList.toggle('active');
     });
 
+    // Sandwich category accordion
+    const clickableTitles = document.querySelectorAll('.clickable-title');
+    clickableTitles.forEach(title => {
+        title.addEventListener('click', function () {
+            this.classList.toggle('collapsed');
+            const menuItems = this.nextElementSibling;
+            if (menuItems && menuItems.classList.contains('menu-items')) {
+                menuItems.classList.toggle('collapsed');
+            }
+        });
+    });
+
+    // Main menu section accordion
+    const mainSectionTitles = document.querySelectorAll('.main-section-title');
+    mainSectionTitles.forEach(title => {
+        title.addEventListener('click', function () {
+            this.classList.toggle('collapsed');
+            const content = this.nextElementSibling;
+            if (content && content.classList.contains('main-section-content')) {
+                content.classList.toggle('collapsed');
+            }
+        });
+    });
+
     const navLinks = document.querySelectorAll('.nav-link');
     navLinks.forEach(link => {
         link.addEventListener('click', function (e) {
