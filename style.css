@@ -318,7 +318,7 @@ body {
 }
 
 .main-section-content {
-    max-height: 5000px;
+    max-height: 10000px;
     overflow: hidden;
     transition: max-height 0.5s ease, opacity 0.4s ease;
     opacity: 1;
@@ -472,7 +472,7 @@ body {
 
 .pizza-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(5000px, 1fr));
     gap: 2.5rem;
     margin-top: 2rem;
 }
@@ -524,6 +524,19 @@ body {
     font-size: 1.75rem;
     font-weight: 700;
     color: var(--color-text);
+}
+
+.pizza-ingredients {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    font-style: italic;
+    margin-top: 0.4rem;
+    line-height: 1.4;
+}
+
+.pizza-card-special {
+    border-color: var(--color-accent) !important;
+    background: linear-gradient(135deg, var(--color-white), var(--color-beige-light));
 }
 
 .pizza-sizes {
